@@ -1,0 +1,17 @@
+base_file_paths:
+  osw: 
+  results: 
+
+gps:
+  model_name: 
+  scaler_name: 
+  denoise:
+    vote_percentage: 0.75
+    num_folds: 10
+    num_classifiers: 10
+    threads: 10
+  export:
+    filter_field: "VOTE_PERCENTAGE"
+    field_value: 1.0
+
+threads: 100

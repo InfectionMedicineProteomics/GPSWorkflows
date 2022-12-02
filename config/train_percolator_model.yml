@@ -1,0 +1,10 @@
+base_file_paths:
+  osw: 
+  results: 
+
+percolator:
+  exe: 
+  threads: 20
+  model_name: 
+
+threads: 80

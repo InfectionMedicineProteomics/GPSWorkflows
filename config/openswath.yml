@@ -1,0 +1,37 @@
+libraries:
+  spectral_library: 
+  rt_library: 
+
+base_file_paths:
+  osw: 
+  results: 
+
+containers:
+  openms: 
+  msproteomicstools: 
+  pyprophet: 
+
+openswath:
+  rt_unit: 'iRT'
+  swath_windows_file: 
+  min_rsq: 0.7
+  batch_size: 8000
+  stop_after_features: 2
+  threads: 10
+  
+models:
+  scoring_model: 
+  scaler: 
+
+percolator:
+  exe: 
+  threads: 5
+
+
+gps:
+  quantification_file_name: 
+  combine:
+    max_peakgroup_q_value: 0.01
+  score:
+    threads: 10
+

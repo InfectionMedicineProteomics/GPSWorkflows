@@ -1,0 +1,17 @@
+libraries:
+  spectral_library: 
+  rt_library: 
+
+base_file_paths:
+  osw: 
+  results: 
+
+percolator:
+  exe: 
+  threads: 20
+  model_name: 
+
+containers:
+  openms: 
+  msproteomicstools: 
+  pyprophet: 
